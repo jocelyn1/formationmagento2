@@ -10,6 +10,7 @@ use Magento\Framework\App\Bootstrap;
 use Magento\Framework\App\Filesystem\DirectoryList;
 
 try {
+    die('pub.php');
     require __DIR__ . '/../app/bootstrap.php';
 } catch (\Exception $e) {
     echo <<<HTML
